@@ -1,0 +1,37 @@
+import { Card, Cards } from 'theme'
+import { GalleryVerticalEnd } from 'lucide-react'
+
+# Cahier des charges
+
+## Fonctionnalités à choisir
+
+-
+
+- [x]  Écrit en Dart
+- [x]  Client avec Flutter
+- [ ]  Api -> librairie à part
+- [ ]  Doit pouvoir sauvegarder les données en local pour hors connexion
+- [ ]  Doit pouvoir supporter des add-ons sous forme de petits plugins
+- [ ]  Doit pouvoir supporter des thèmes visuels -> addons (voir [Thèmes](/addons/themes))
+
+
+
+<div className="nx-mt-12">
+  <Cards num={3}>
+    <Card
+      icon={<GalleryVerticalEnd />}
+      title="Client"
+      href="client"
+    />
+    <Card
+      icon={<GalleryVerticalEnd />}
+      title="Api"
+      href="Api"
+    />
+    <Card
+      icon={<GalleryVerticalEnd />}
+      title="Addons"
+      href="addons"
+    />
+  </Cards>
+</div>
